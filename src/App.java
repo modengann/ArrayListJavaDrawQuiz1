@@ -1,10 +1,11 @@
 /**
  *  Task: Create a program that will:
- *     -Make hail appear on the screen when the mouse button is clicked. 
+ *     -Make hail constantly appear on the screen. 
  *         -Hail will be a square where the height and width are random values between 4 and 12. 
- *     -It is a windy day! The hail will fly from left to right across the screen.
- *     -If the hail reaches the edge of the screen, it should be removed from the screen 
- *         and any list it may be a part of
+ *     -It is a windy day! The hail will fly from LEFT to RIGHT across the screen. The hail should spawn (form)
+ *      at random locations across the LEFT side of the screen.
+ *     -If the hail reaches the right edge of the screen, it should be removed from the screen 
+ *         AND any list it may be a part of
  *     -There will be a UFO flying across the screen, if the hail touches the UFO the hail should disappear.
  * 
  *   Specifications:
